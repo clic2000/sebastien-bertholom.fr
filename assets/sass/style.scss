@@ -1,2 +1,18 @@
 @charset "utf-8";
 @import "font";
+
+
+// Our site title
+.site-title {
+    font-family: $titles-font;
+    font-size: 1.4em;
+}
+
+// Our site subtitle
+.site-subtitle {
+    padding-left: 12px;
+
+    border-left: 1px solid black;
+
+    font-size: 1.1em;
+}
