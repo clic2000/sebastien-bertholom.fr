@@ -14,3 +14,13 @@ function toggleMenu() {
         menu.style.display = "none";
     }
 }
+
+// Show/hide hover imgs
+
+function show() {
+    document.getElementById('text-1').style.display = "block";
+}
+
+function hide() {
+    document.getElementById('text-1').style.display = "none";
+}
