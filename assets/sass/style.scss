@@ -1,51 +1,62 @@
 @charset "utf-8";
 @import "font";
 
-
 // Our site title
 .site-title {
-    font-family: $titles-font;
-    font-size: 1.4em;
+  font-family: $titles-font;
+  font-size: 1.4em;
 }
 
 // Our site subtitle
 .site-subtitle {
-    padding-left: 12px;
+  padding-left: 12px;
 
-    border-left: 1px solid black;
+  border-left: 1px solid black;
 
-    font-size: 1.1em;
+  font-size: 1.1em;
+}
+
+@media (max-width: 780px) {
+  .site-subtitle {
+    border-left: none;
+  }
 }
 
 // The hamburger
 
 .container-burger {
-    display: inline-block;
-    cursor: pointer;
-  }
+  display: inline-block;
+  cursor: pointer;
+}
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 1px;
+  background-color: black;
+  margin: 8px 0;
+  transition: 0.4s;
+}
 
-  // Navigation
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+  transform: rotate(-45deg) translate(-5px, 4px);
+}
 
-  .navigation {
-      padding-right: 12px;
-  }
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -8px);
+  transform: rotate(45deg) translate(-7px, -8px);
+}
+
+// Navigation
+
+.navigation {
+  padding-right: 12px;
+
+  font-size: 0.8em;
+}
