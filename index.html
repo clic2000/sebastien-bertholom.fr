@@ -31,7 +31,14 @@
                     </p>
                 </div>
                 <div class="level-right">
-                    <div class="container-burger">
+                    <div id="menu" class="navigation">
+                        <ul>
+                            <li><a href="">ACCUEIL</a></li>
+                            <li><a href="">CONTACT</a></li>
+                            <li><a href="">PROJETS</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-burger" onclick="toggleBurger(this); toggleMenu()">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -41,7 +48,7 @@
         </div>
     </section>
     <!-- Our script -->
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
