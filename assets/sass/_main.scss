@@ -1,11 +1,50 @@
-.img-main{
-    width: 100%;
-    height: auto;
+.img-main {
+  width: 100%;
+  height: auto;
 
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .content {
-    display: flex;
-    height: 80vh;
+  display: flex;
+  height: 80vh;
 }
+
+// Tiles
+
+.box {
+  border-radius: 0% !important;
+  border: 1px solid black;
+}
+
+.box-1 {
+  min-height: 300px !important;
+  background-image: url(../img/clavicorde.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-2 {
+  min-height: 300px !important;
+  background-image: url(../img/accord.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-3 {
+    min-height: 300px !important;
+    background-image: url(../img/harmo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .box-4 {
+    min-height: 310px !important;
+    background-image: url(../img/accord2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
