@@ -12,12 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
         integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Meta description -->
     <meta name="description"
         content="Accordeur, réparateur de piano en Finistère à Douarnenez. Prestations : accord, réglage, réparations/restauration.">
+
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
     <section class="section">
         <div class="container">
             <nav class="level">
@@ -55,10 +61,9 @@
                 <div class="tile is-vertical is-8">
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
-                            <div class="tile is-child box box-1">
-                                <!-- Put any content you want -->
+                            <div class="tile is-child box box-1" title="clavicorde" data-aos="fade-down-right" data-aos-duration="3000">
                             </div>
-                            <article class="tile is-child box">
+                            <article class="tile is-child box" data-aos="fade-right" data-aos-duration="3000">
                                 <h2 class="is-uppercase">Interventions</h2><br>
                                 <p>Formé tout d’abord en alternance (ITEMM, Le Mans / Pianos Valat, Morlaix) dans
                                     l’entretien des pianos : Accord, Réglage, Harmonisation, toutes Réparations
@@ -70,7 +75,7 @@
                             </article>
                         </div>
                         <div class="tile is-parent is-vertical">
-                            <article class="tile is-child box">
+                            <article class="tile is-child box" data-aos="fade-down" data-aos-duration="3000">
                                 <h2 class="is-uppercase">Accordage</h2> <br>
                                 <p>L’accordage du Piano est une opération de réglage de la tension des cordes, qui
                                     doit être effectuée une à deux fois par an dans l’idéal. Cela assure de garantir
@@ -79,19 +84,18 @@
                                     tenue d’accord à long terme. L’accord de l’instrument est effectué à l’aide de
                                     l’oreille et d’un diapason choisi selon le souhait (440Hz, 442Hz etc.).</p>
                             </article>
-                            <div class="tile is-child box box-2">
-                                <!-- Put any content you want -->
+                            <div class="tile is-child box box-2" title="mécanique d'un piano" data-aos="fade-up" data-aos-duration="1000">
                             </div>
                         </div>
                     </div>
                     <div class="tile">
                         <div class="tile is-parent">
-                            <div class="tile is-child box box-4">
+                            <div class="tile is-child box box-4" title="mécanique d'un piano" data-aos="fade-up-right" data-aos-duration="3000">
 
                             </div>
                         </div>
                         <div class="tile is-parent">
-                            <div class="tile is-child box">
+                            <div class="tile is-child box" data-aos="fade-up" data-aos-duration="3000">
                                 <h2 class="is-uppercase">Conseils et avis techniques</h2><br>
                                 <p>Il n’est pas aisé de savoir que faire d’un piano à queue agé d’un siècle dont on
                                     se retrouve soudainement propriétaire, ou de savoir quel type d’instrument acheter
@@ -103,9 +107,9 @@
                     </div>
                 </div>
                 <div class="tile is-parent is-vertical">
-                    <div class="tile is-child box box-3">
+                    <div class="tile is-child box box-3" title="marteaux d'un piano" data-aos="fade-up" data-aos-duration="3000" >
                     </div>
-                    <article class="tile is-child box">
+                    <article class="tile is-child box" data-aos="fade-up-left" data-aos-duration="3000">
                         <h2 class="is-uppercase">Réglages et Harmonisation</h2> <br>
                         <p>Le Piano possède une mécanique et un clavier qui par l’intermédiaire de nombreuses pièces
                             inter-dépendantes permettent la mise en vibration des cordes. Pour un fonctionnement, une
