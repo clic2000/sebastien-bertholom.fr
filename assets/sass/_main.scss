@@ -1,10 +1,3 @@
-.img-main {
-  width: 100%;
-  height: auto;
-
-  border: 1px solid black;
-}
-
 // Tiles
 
 .box {
@@ -29,17 +22,30 @@
 }
 
 .box-3 {
-    min-height: 300px !important;
-    background-image: url(../img/harmo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  min-height: 300px !important;
+  background-image: url(../img/harmo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .box-4 {
-    min-height: 310px !important;
-    background-image: url(../img/accord2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.box-4 {
+  min-height: 310px !important;
+  background-image: url(../img/accord2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-hov:hover {
+  color: white;
+  background-color: rgb(36, 37, 39);
+    a {
+        color: white !important;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
