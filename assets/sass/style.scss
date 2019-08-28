@@ -9,6 +9,9 @@
 .site-title {
   font-family: $titles-font;
   font-size: 1.4em;
+  a {
+      text-transform: none;
+  }
 }
 
 // Our site subtitle
