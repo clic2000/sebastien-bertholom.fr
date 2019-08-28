@@ -5,6 +5,10 @@
 @import "footer";
 @import "contact";
 
+
+html,body {
+    height: 100%;
+}
 // Our site title
 .site-title {
   font-family: $titles-font;
