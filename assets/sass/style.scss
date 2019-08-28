@@ -2,7 +2,6 @@
 @import "font";
 @import "menu";
 @import "main";
-@import "footer";
 
 // Our site title
 .site-title {
@@ -28,5 +27,6 @@
 a {
     text-transform: uppercase;
     font-weight: 500;
+    color: black;
 }
 

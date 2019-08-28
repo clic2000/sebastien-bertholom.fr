@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sébastien Bertholom - Technicien Artisan du Piano</title>
+    <!-- Links to css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bulma/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Meta description -->
+    <meta name="description"
+        content="Accordeur, réparateur de piano en Finistère à Douarnenez. Prestations : accord, réglage, réparations/restauration.">
+
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <section class="section" data-aos="fade-down" data-aos-duration="2500">
+        <div class="container">
+            <nav class="level">
+                <div class="level-left">
+                    <h1 class="site-title level-item">
+                        Sébastien<br>
+                        Bertholom
+                    </h1>
+                    <p class="site-subtitle level-item">
+                        Technicien <br>
+                        Artisan
+                        du Piano
+                    </p>
+                </div>
+                <div class="level-right">
+                    <div id="menu" class="navigation">
+                        <ul>
+                            <li><a class="menu-item" href="index.html">ACCUEIL</a></li>
+                            <li><a class="menu-item" href="contact.html">CONTACT</a></li>
+                            <li><a class="menu-item" href="projets.html">PROJETS</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-burger" onclick="toggleBurger(this); toggleMenu()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="section-main">
+        <div class="columns is-centered">
+            <div class="column is-6">
+                <div class="field">
+                    <label class="label">Prénom et nom</label>
+                    <div class="control has-icons-left">
+                        <input class="input" type="name" name="first name" placeholder="Comment doit-on vous appeler ?">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-user"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">E-mail et téléphone</label>
+                    <div class="field-body is-horizontal">
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left">
+                                <input class="input" type="email" name="_replyto" placeholder="Votre adresse e-mail">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left">
+                                <input class="input" type="phone" name="phone" placeholder="Votre numéro de téléphone">
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-phone"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Sujet</label>
+                    <div class="control">
+                        <input class="input" type="subject" name="subject"
+                            placeholder="e.g. accordage, concert, restauration...">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" type="message" name="message"
+                            placeholder="En quoi puis- vous aider ?"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <input class="button" type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Page de <a href="contact.html">contact</a> | Site web réalisé par <a
+                    href="https://clic2000.fr">clic2000</a>
+            </p>
+        </div>
+    </footer>
+    <!-- Our script -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
