@@ -1,3 +1,4 @@
-# gruber-website-new
+# sebastien-bertholom.fr
 
-Website for my friend Gruber
+Website for our friend Sebastien.
+
