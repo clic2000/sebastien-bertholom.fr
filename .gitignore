@@ -52,8 +52,9 @@ Temporary Items
 *.scss.map
 
 # ----> CSS
-assets/css/
-!assets/css/bulma/bulma.min.css
+!assets/css
+assets/css/*
+!assets/css/bulma/
 
 # ---> VisualStudioCode
 .vscode/*
