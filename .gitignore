@@ -53,6 +53,7 @@ Temporary Items
 
 # ----> CSS
 assets/css/
+!assets/css/bulma/bulma.min.css
 
 # ---> VisualStudioCode
 .vscode/*
