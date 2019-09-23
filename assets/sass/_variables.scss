@@ -1,54 +1,16 @@
-@charset "utf-8";
-@import "font";
-@import "menu";
-@import "main";
-@import "footer";
-@import "contact";
-@import "fork-awesome.scss";
+// COLORS
 
+$gray-pink: #f5edff;
+$purple-light: #bf306c;
+$lighter-pink: #F3D3F0;
 
-html,body {
-    height: 100%;
-}
-// Our site title
-.site-title {
-  font-family: $titles-font;
-  font-size: 1.6em;
-  a {
-      text-transform: none;
-  }
-}
+// SPACING
 
-// Logo
+$letter-spacing: 4px;
 
-.logo {
-  height: 78px;
-  width: auto;
-}
+// FONTS
 
-// Our site subtitle
-.site-subtitle {
-  padding-left: 12px;
-
-  border-left: 1px solid black;
-
-  font-size: 1.1em;
-}
-
-@media (max-width: 780px) {
-  .site-subtitle {
-    border-left: none;
-  }
-} 
-
-a {
-    text-transform: uppercase;
-    color: black !important;
-}
-
-a:hover {
-    text-decoration: underline !important; 
-}
+$title-font: terminal_grotesque;
 
 // FORK AWESOME
 
