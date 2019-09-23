@@ -1,2 +1,7 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../font/AmaticSC-Regular.ttf') format('truetype');
+}
+
 // The font we use for our titles
-$titles-font: 'Amatic SC', cursive;
+$titles-font: 'Amatic SC';
