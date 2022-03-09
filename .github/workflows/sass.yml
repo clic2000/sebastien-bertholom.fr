@@ -3,7 +3,7 @@ name: Build Sass & deploy
 on:
   push:
     branches:
-      - production
+      - dev
 
 jobs:
   build_css:
@@ -24,8 +24,8 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.9
         with:
-          source: assets/sass/style.scss
-          destination: assets/css/style.css
+          source: assets/sass/styles.scss
+          destination: assets/css/styles.css
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
