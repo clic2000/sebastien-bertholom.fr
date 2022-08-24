@@ -51,11 +51,6 @@ Temporary Items
 *.sass.map
 *.scss.map
 
-# ----> CSS
-!assets/css
-assets/css/*
-!assets/css/bulma/
-
 # ---> VisualStudioCode
 .vscode/*
 !.vscode/settings.json
